@@ -10,6 +10,3 @@
   <img src="https://img.shields.io/badge/vsc-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
   <br>
 </p>
-
-
-![](./profile-3d-contrib/profile-green-animate.svg)
