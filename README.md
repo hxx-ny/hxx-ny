@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=hxx-ny%20&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=3000&section=header&text=hxx-ny&fontAlign=90)
 
 <h3 align="center">📚 Study 📚</h3>
 <p align="center">
