@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&animation=fadeIn&section=footer)
-
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=hxx_ny%20render&fontSize=90" />
 <h3 align="center">📚 Study 📚</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/clang-00599C?style=for-the-badge&logo=c&logoColor=white">
