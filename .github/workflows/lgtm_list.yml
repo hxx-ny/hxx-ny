@@ -1,19 +1,20 @@
-name: LGTM list
+name: GitHub-Profile-3D-Contrib
 
 on:
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
   workflow_dispatch:
-  pull_request:
-    paths: 'LGTM/**'
-  push:
-    paths: 'LGTM/**'
 
 jobs:
-  create_list:
+  build:
     runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
-      - name: Create LGTM list
-        run: ./bin/make_lgtm.sh
+      - uses: actions/checkout@v2
+      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
           git config user.name hxx-ny
